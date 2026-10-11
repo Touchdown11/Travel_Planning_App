@@ -255,4 +255,4 @@ Possible future features: trip budgeting, shareable itineraries, offline mode, p
 
 ## License
 
-No license file is included in this repository yet. Add a `LICENSE` file (for example MIT or Apache-2.0) to specify how others may use this project; until then, all rights are reserved by the author.
+This project is licensed under the [Apache License 2.0](LICENSE). Copyright 2026 Lakshan KPB.

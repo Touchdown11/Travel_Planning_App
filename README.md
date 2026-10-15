@@ -1,8 +1,26 @@
+<div align="center">
+
 # ✈️ Travel Planning App
 
-An Android application (Java) that helps travellers plan a trip in one place. Users sign in with email and password, build a day-by-day itinerary stored in the cloud, explore destination ideas, browse accommodation options, and view a destination on an interactive map.
+**Plan your trip in one place: sign in, build an itinerary, explore destinations, find places to stay, and see them on a map.**
 
-> **Status:** Prototype / coursework-style project. Authentication, itinerary storage and the map are wired up for real. Destination and accommodation search currently return **placeholder (dummy) data**. See [Known Limitations](#known-limitations--roadmap).
+![Platform](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
+![Language](https://img.shields.io/badge/language-Java%2011-orange?logo=openjdk&logoColor=white)
+![Min SDK](https://img.shields.io/badge/minSdk-34-blue)
+![Target SDK](https://img.shields.io/badge/targetSdk-35-blue)
+![Backend](https://img.shields.io/badge/backend-Firebase-FFCA28?logo=firebase&logoColor=black)
+![Status](https://img.shields.io/badge/status-prototype-yellow)
+![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)
+
+</div>
+
+> **Status:** Prototype. Authentication, itinerary storage and the map work end to end. Destination and accommodation search currently return **placeholder data**. See [Known Limitations & Roadmap](#known-limitations--roadmap).
+
+<!-- Add screenshots here, for example:
+<p align="center">
+  <img src="docs/screenshots/home.png" width="240" alt="Home screen" />
+</p>
+-->
 
 ---
 
@@ -25,6 +43,9 @@ An Android application (Java) that helps travellers plan a trip in one place. Us
 - [Security Notes](#security-notes)
 - [Contributing](#contributing)
 - [License](#license)
+- [Author & Ownership](#author--ownership)
+- [Third-Party Software](#third-party-software)
+- [Contact](#contact)
 
 ---
 
@@ -249,10 +270,42 @@ Possible future features: trip budgeting, shareable itineraries, offline mode, p
 
 ## Contributing
 
-1. Fork the repository and create a feature branch: `git checkout -b feature/my-feature`
-2. Make your changes and make sure `./gradlew assembleDebug test` passes.
-3. Commit with a clear message and open a pull request describing the change.
+This is a proprietary project, and it is not open to unsolicited code contributions. Bug reports, questions and suggestions are welcome through [GitHub Issues](https://github.com/Touchdown11/Travel_Planning_App/issues).
+
+If you would like to contribute code, please open an issue or email the author first. Any contribution is subject to section 5 of the [LICENSE](LICENSE).
 
 ## License
 
-This project is licensed under the [Apache License 2.0](LICENSE). Copyright 2026 Lakshan KPB.
+Copyright (c) 2025-2026 Touchdown11. **All Rights Reserved.**
+
+This software is proprietary. You may view the source and run it personally for non-commercial evaluation. Copying, modification, redistribution and commercial use are not permitted without written permission from the author. See the [LICENSE](LICENSE) file for the full terms.
+
+## Author & Ownership
+
+| | |
+| --- | --- |
+| **Author / Owner** | [Touchdown11](https://github.com/Touchdown11) |
+| **Copyright holder** | Touchdown11, 2025-2026 |
+| **Repository** | <https://github.com/Touchdown11/Travel_Planning_App> |
+
+"Travel Planning App", the app's design, source code and original assets are the property of the author. Third-party components are the property of their respective owners.
+
+## Third-Party Software
+
+This project builds on the following open-source libraries and services. They are **not** covered by this project's license and keep their own licenses.
+
+| Component | Purpose | License |
+| --- | --- | --- |
+| [AndroidX](https://developer.android.com/jetpack/androidx) (AppCompat, Activity, ConstraintLayout, RecyclerView) | UI framework | Apache-2.0 |
+| [Material Components for Android](https://github.com/material-components/material-components-android) | UI components | Apache-2.0 |
+| [Firebase Android SDK](https://github.com/firebase/firebase-android-sdk) (Auth, Firestore, Analytics) | Authentication, database, analytics | Apache-2.0 (use of the Firebase service is subject to the [Firebase Terms](https://firebase.google.com/terms)) |
+| [osmdroid](https://github.com/osmdroid/osmdroid) | Map rendering | Apache-2.0 |
+| Map data: [OpenStreetMap](https://www.openstreetmap.org/copyright) | Map tiles | ODbL, © OpenStreetMap contributors |
+
+Please follow each library's attribution requirements if you distribute a build.
+
+## Contact
+
+**Touchdown11**, [@Touchdown11](https://github.com/Touchdown11), <buddhikalakshn02@gmail.com>
+
+For licensing or permission requests, email the address above with the subject "Travel Planning App: licensing".
